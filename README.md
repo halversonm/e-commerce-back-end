@@ -7,9 +7,9 @@ This application serves as a functional back end for an e-commerce site. It cons
 To use this application, you will need to install all dependencies by running "npm install" in the project's terminal. You will also need to install MySQL. Refer here for MySQL installation: https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
 
 ## Usage 
-Before using the application, create a .env file. In this you will store your MySQL credentials, and then utilize the file to ensure MySQL Server connection. To start the application, install all dependencies as listed above and then run "npm start" in the terminal. You can test the application by using an app like Insomnia. 
+Before using the application, configure a .env file to ensure MySQL Server connection. Run the schema.sql to create the database, and seed the database by using node to run the seeds/index.js file. To start the application, run "npm start" in the terminal. You can test the application by using an app like Insomnia. 
 
-A short walkthrough video showing this app's functionality is linked here: 
+A short walkthrough video showing this app's functionality is linked here: https://youtu.be/5MN1RfVF7yE
 
 ## Credits
 N/A
